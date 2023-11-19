@@ -1,0 +1,213 @@
+@import url(./vendor/normalize.css);
+.page {
+    max-width: 1280px;
+    margin: 0;
+    padding: 0;
+    background-color:thistle;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dm {
+    background-image: url('./images/dm.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 85px;
+    margin: 5px;
+}
+
+.dm:hover {
+    background-image: url('./images/light.jpg');
+    border-radius: 250%;
+    margin: auto;
+    padding: 0;
+    width: 305px;
+    height: 94px;
+}
+
+.hl {
+    background-image: url(./images/happylevel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+}
+
+.hl:hover {
+    background-image: url(./images/matcha.jpg);
+    margin: auto;
+    padding: 0;
+    width: 305px;
+    height: 94px;
+}
+
+.logo {
+    display: flex;
+}
+
+.semicolon {
+    width: 116px;
+    height: 23px;
+    margin: 17px 0px -2px 13px;
+    padding: 0;
+}
+
+.by {
+    margin: 34px 94px -58px -35px;
+    padding: 0;
+    color: sienna;
+}
+
+.helxlogo {
+    border-radius: 125px;
+    margin: 1px 0 1px -96px;
+    width: 96px;
+    height: 93px;
+}
+
+.content {
+    max-height: 600px;
+    background-color:blanchedalmond;
+}
+
+
+.love {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.photo-grid {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+.photo-grid__item {
+    width: 100%;
+}
+
+.photo-grid__item:hover {
+opacity: 0.5;
+}
+
+.paints {
+  width: 100%;
+  grid-column: span 2;
+}
+
+.footer {
+    max-width: 1280px;
+    min-height: 75px;
+    background-image: url(./images/footer1.jpg);
+}
+
+
+.popup {
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: visibility 0.5s 0.6s, opacity 0.6s;
+}
+
+.popup_opened {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s ease-in, opacity 0.6s;
+}
+
+.popup_first {
+    visibility: visible;
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream1.jpg);
+    background-size: contain;
+}
+
+.popup_second {
+    visibility: visible;
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream2.jpg);
+    background-size: contain;
+}
+
+.popup_second {
+    visibility: visible;
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream2.jpg);
+    background-size: contain;
+}
+
+.popup_third {
+    visibility: visible;
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream3.jpg);
+    background-size: contain;
+}
+
+.popup_fourth {
+    visibility: visible;
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream4.jpg);
+    background-size: contain;
+}
+
+.popup_fifth {
+    visibility: visible;
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream5.jpg);
+    background-size: contain;
+}
+
+.popup_sixth {
+    visibility: visible;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream6.jpg);
+    background-size: contain;
+}
+
+.popup_seventh {
+    visibility: visible;
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-image: url(./images/dream7.jpg);
+    background-size: contain;
+}
+
+.popup_kasta {
+    visibility: visible;
+    /*
+    border-radius: 125%;
+    width: 350px;
+    height: 350px;
+    background-size: contain; */
+}
